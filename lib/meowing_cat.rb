@@ -2,8 +2,8 @@ class Cat
   attr_accessor:name
  end
  
- def meow=("meow!")
-   @cat_meow = "meow!"
+ def meow=(call)
+   @cat_meow = call
  end
  
  def meow
